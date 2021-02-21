@@ -5,36 +5,36 @@ Database - SQLite
 
 File_Structure:
 
-├───app.py 
-├───requirements.txt 
-├───migrations # folder created for migrations by calling
-├───myproject # main project folder
-│   │   data.sqlite
-│   │   models.py
-│   │   __init__.py
+├───app.py <br/>
+├───requirements.txt <br/>
+├───migrations # folder created for migrations by calling<br/>
+├───myproject # main project folder<br/>
+│   │   data.sqlite<br/>
+│   │   models.py<br/>
+│   │   __init__.py<br/>
+│   │<br/>
+│   ├───owners<br/>
+│   │   │   forms.py<br/>
+│   │   │   views.py<br/>
+│   │   │<br/>
+│   │   ├───templates<br/>
+│   │      └───owners<br/>
+│   │             add_owner.html<br/>
+│   │   <br/>
 │   │
-│   ├───owners
-│   │   │   forms.py
-│   │   │   views.py
-│   │   │
-│   │   ├───templates
-│   │      └───owners
-│   │             add_owner.html
-│   │   
-│   │
-│   ├───puppies
-│   │   │   forms.py
-│   │   │   views.py
-│   │   │
-│   │   ├───templates
-│   │   │   └───puppies
-│   │   │           add.html
-│   │   │           delete.html
-│   │   │           list.html
-│   │
-│   ├───static # Where you store your CSS, JS, Images, Fonts, etc...
-│   ├───templates
-│          base.html
-│          home.html
+│   ├───puppies<br/>
+│   │   │   forms.py<br/>
+│   │   │   views.py<br/>
+│   │   │<br/>
+│   │   ├───templates<br/>
+│   │   │   └───puppies<br/>
+│   │   │           add.html<br/>
+│   │   │           delete.html<br/>
+│   │   │           list.html<br/>
+│   │<br/>
+│   ├───static # Where you store your CSS, JS, Images, Fonts, etc...<br/>
+│   ├───templates<br/>
+│          base.html<br/>
+│          home.html<br/>
 
 
